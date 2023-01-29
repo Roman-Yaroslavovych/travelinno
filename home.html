@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>HomePage</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230128152516">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header data-scroll-show class="header">
+			<div class="header__container">
+				<div class="header__logo">
+					<img src="img/Logo.svg" alt="logo">
+				</div>
+				<div class="header__menu menu">
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item"><a href="#" class="menu__link">Home</a></li>
+							<li class="menu__item"><a href="#" class="menu__link">Explore</a></li>
+							<li class="menu__item"><a href="#" class="menu__link">Travel</a></li>
+							<li class="menu__item"><a href="#" class="menu__link">Blog</a></li>
+							<li class="menu__item"><a href="#" class="menu__link">Pricing</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div data-da=".menu__list, 768" class="header__action action">
+					<a href="#" class="action__link">Login</a>
+					<button type="button" class="action__button button">Sign up</button>
+					<button data-da=".header__container, 768" type="button" class="icon-menu"><span></span></button>
+				</div>
+			</div>
+		</header>
+
+
+		<main class="page">
+			<section class="page__start-trawel start-trawel">
+				<div class="start-trawel__container">
+					<div class="start-trawel__content">
+						<h1 class="start-trawel__title">Start your unforgettable
+							journey with us.</h1>
+						<p class="start-trawel__text">The best travel for your jouney begins now</p>
+					</div>
+					<form class="start-trawel__form form-trawel" action="#" method="post">
+						<div class="form-trawel__body">
+							<div class="form-trawel__destination">
+								<label for="destination" class="form-trawel__destination-label">Destination</label>
+								<input id="destination" autocomplete="off" type="text" name="destination" data-error="error" placeholder="Dubai" class="input">
+							</div>
+							<div class="form-trawel__person">
+								<label for="person" class="form-trawel__person-label">Person</label>
+								<input id="person" autocomplete="off" type="number" name="person" data-error="error" placeholder="2" class="input">
+							</div>
+							<div class="form-trawel__chekin ">
+								<label for="chekin" class="form-trawel__chekin-label">Chek In</label>
+								<input id="chekin" data-datepicker name="chekin" placeholder="Sun, 17th Sep 2020" class="input">
+							</div>
+							<div class="form-trawel__chekout">
+								<label for="chekout" class="form-trawel__chekout-label">Chek out</label>
+								<input id="chekout" data-datepicker-1 name="chekout" placeholder="Tue, 17th Oct 2020" class="input">
+							</div>
+						</div>
+						<button type="button" class="form-trawel__button _icon-Arrow-Right">Book Now</button>
+					</form>
+				</div>
+			</section>
+			<section class="destinations">
+				<div class="destinations__container">
+					<h2 class="destinations__title title">Popular Destinations</h2>
+					<div class="destinations__content">
+						<p class="destinations__text">Most popular destinations around the world, from historical places to natural wonders.</p>
+						<div data-da=".desinations__slider, 768" class="destinations__swiper-navigation">
+							<button type="button" class="swiper-button-prev"></button>
+							<button type="button" class="swiper-button-next"></button>
+						</div>
+					</div>
+					<!-- Оболочка слайдера -->
+					<div class="desinations__slider swiper">
+						<!-- Двигающееся часть слайдера -->
+						<div class="desinations__wrapper swiper-wrapper">
+							<!-- Слайд -->
+							<div class="desinations__slide swiper-slide slide-destination">
+								<div class="slide-destination__image">
+									<picture><source srcset="img/slider-destination/destination-01.webp" type="image/webp"><img src="img/slider-destination/destination-01.jpg" alt="Berlin"></picture>
+								</div>
+								<div class="slide-destination__text">
+									<p class="slide-destination__name">Monument of Berlin</p>
+									<p class="slide-destination__lacation">Berlin, Germany</p>
+								</div>
+							</div>
+							<div class="desinations__slide swiper-slide slide-destination">
+								<div class="slide-destination__image">
+									<picture><source srcset="img/slider-destination/destination-02.webp" type="image/webp"><img src="img/slider-destination/destination-02.jpg" alt="Berlin"></picture>
+								</div>
+								<div class="slide-destination__text">
+									<p class="slide-destination__name">Millennium Bridge</p>
+									<p class="slide-destination__lacation">London, United Kingdom</p>
+								</div>
+							</div>
+							<div class="desinations__slide swiper-slide slide-destination">
+								<div class="slide-destination__image">
+									<picture><source srcset="img/slider-destination/destination-03.webp" type="image/webp"><img src="img/slider-destination/destination-03.jpg" alt="Berlin"></picture>
+								</div>
+								<div class="slide-destination__text">
+									<p class="slide-destination__name">Rialto Bridge</p>
+									<p class="slide-destination__lacation">Venice, Italy</p>
+								</div>
+							</div>
+							<div class="desinations__slide swiper-slide slide-destination">
+								<div class="slide-destination__image">
+									<picture><source srcset="img/slider-destination/destination-04.webp" type="image/webp"><img src="img/slider-destination/destination-04.jpg" alt="Berlin"></picture>
+								</div>
+								<div class="slide-destination__text">
+									<p class="slide-destination__name">Sea of Orange Tiles</p>
+									<p class="slide-destination__lacation">Lisbon, Portugal</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="blog">
+				<div class="blog__container">
+					<div class="blog__header">
+						<h2 class="blog__title title">Our Blog</h2>
+						<p class="blog__subtitle">An insight the incredible experience in the world</p>
+					</div>
+					<div class="blog__content content-blog">
+						<div class="content-blog__image">
+							<picture><source srcset="img/slider-destination/blog.webp" type="image/webp"><img src="img/slider-destination/blog.jpg" alt="Italy"></picture>
+						</div>
+						<div class="content-blog__describe describe">
+							<h3 class="describe__title">Beautiful Italy
+								Let’s travel</h3>
+							<p class="describe__text">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system and expound the actual teachings of the great explorer of the truth, the master- builder of human happiness. No one rejects, dislike, or avoids plasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremly painful. Nor again is there anyone who loves or pursues.</p>
+							<button type="button" class="describe__button _icon-Arrow-Right">Read More</button>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="trip-planers">
+				<div class="trip-planers__contain">
+					<div class="trip-planers__info info-trip">
+						<h2 class="info-trip__title title">Trip Planners</h2>
+						<p class="info-trip__text">20 years from now you will be more disappointed by the things that you didn’t do. Stop regretting and start travelling, start throwing off the bowlines.</p>
+						<a href="#" class="info-trip__link button">View all trip plans</a>
+					</div>
+					<div class="trip-planers__content content-trip">
+						<div class="content-trip__card">
+							<div class="content-trip__image-ibg">
+								<picture><source srcset="img/trip/Rome.webp" type="image/webp"><img src="img/trip/Rome.jpg" alt="Rome"></picture>
+							</div>
+							<div class="content-trip__main-info">
+								<div class="content-trip__price">
+									<div class="content-trip__guide">Guided Tour</div>
+									<div class="content-trip__price-day">€99/Day</div>
+								</div>
+								<div class="content-trip__trip-name">Rome City Tour</div>
+								<div class="content-trip__rating">
+									<div class="content-trip__trip-rating"></div>
+									<div class="content-trip__trip-duration">7 Days tour</div>
+								</div>
+							</div>
+						</div>
+						<div class="content-trip__card">
+							<div class="content-trip__image-ibg">
+								<picture><source srcset="img/trip/Paris.webp" type="image/webp"><img src="img/trip/Paris.jpg" alt="Paris"></picture>
+							</div>
+							<div class="content-trip__main-info">
+								<div class="content-trip__price">
+									<div class="content-trip__guide">Guided Tour</div>
+									<div class="content-trip__price-day">€99/Day</div>
+								</div>
+								<div class="content-trip__trip-name">Paris City Tour</div>
+								<div class="content-trip__rating">
+									<div class="content-trip__trip-rating"></div>
+									<div class="content-trip__trip-duration">7 Days tour</div>
+								</div>
+							</div>
+						</div>
+						<div class="content-trip__card">
+							<div class="content-trip__image-ibg">
+								<picture><source srcset="img/trip/Wien.webp" type="image/webp"><img src="img/trip/Wien.jpg" alt="Wien"></picture>
+							</div>
+							<div class="content-trip__main-info">
+								<div class="content-trip__price">
+									<div class="content-trip__guide">Guided Tour</div>
+									<div class="content-trip__price-day">€99/Day</div>
+								</div>
+								<div class="content-trip__trip-name">Wien City Tour</div>
+								<div class="content-trip__rating">
+									<div class="content-trip__trip-rating"></div>
+									<div class="content-trip__trip-duration">7 Days tour</div>
+								</div>
+							</div>
+						</div>
+						<div class="content-trip__card">
+							<div class="content-trip__image-ibg">
+								<picture><source srcset="img/trip/Budapesht.webp" type="image/webp"><img src="img/trip/Budapesht.jpg" alt="Budapesht"></picture>
+							</div>
+							<div class="content-trip__main-info">
+								<div class="content-trip__price">
+									<div class="content-trip__guide">Guided Tour</div>
+									<div class="content-trip__price-day">€99/Day</div>
+								</div>
+								<div class="content-trip__trip-name">Budapesht City Tour</div>
+								<div class="content-trip__rating">
+									<div class="content-trip__trip-rating"></div>
+									<div class="content-trip__trip-duration">7 Days tour</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer data-spollers="768,max" class="footer _header-scroll">
+			<div class="footer__container">
+				<div class="footer__logo">
+					<div class="footer__logo-img">
+						<img src="img/Logo.svg" alt="logo">
+					</div>
+					<p class="footer__roots">Copyright © Travellian 2020 All rights reserved</p>
+				</div>
+				<div class="footer__menu footer-block">
+					<button type="button" data-spoller class="footer__menu-title footer-title">Menu</button>
+					<ul class="footer__menu-list">
+						<li class="footer__menu-item"><a href="#">Home</a></li>
+						<li class="footer__menu-item"><a href="#">Explore</a></li>
+						<li class="footer__menu-item"><a href="#">Travel</a></li>
+						<li class="footer__menu-item"><a href="#">Blog</a></li>
+						<li class="footer__menu-item"><a href="#">Pricing</a></li>
+					</ul>
+				</div>
+				<div class="footer__info footer-block">
+					<button type="button" data-spoller class="footer__info-title footer-title">Information</button>
+					<ul class="footer__info-list">
+						<li class="footer__info-item"><a href="#" class="info-link">Destinations</a></li>
+						<li class="footer__info-item"><a href="#" class="info-link">Supports</a></li>
+						<li class="footer__info-item"><a href="#" class="info-link">Terms & Conditions</a></li>
+						<li class="footer__info-item"><a href="#" class="info-link">Privacy</a></li>
+					</ul>
+				</div>
+				<div class="footer__contacts footer-block">
+					<button type="button" data-spoller class="footer__contacts-title footer-title">Contact Info</button>
+					<ul class="footer__contacts-list">
+						<li class="footer__phone">+123 456 789</li>
+						<li class="footer__mail">info@travellian.com</li>
+						<li class="footer__adress">1245, New Yourk, USA</li>
+					</ul>
+				</div>
+				<div class="footer__follow-us">
+					<div class="footer__follow-us-title footer-title">Follow us on</div>
+					<ul class="footer__social">
+						<li class="footer__facebook"><a href="#" class="_icon-facebook"></a></li>
+						<li class="footer__pinterest"><a href="#" class="_icon-pinterest"></a></li>
+						<li class="footer__instagram"><a href="#" class="_icon-instagram"></a></li>
+						<li class="footer__twitter"><a href="#" class="_icon-twitter"></a></li>
+					</ul class="footer__social">
+				</div>
+			</div>
+	</div>
+	</footer>
+
+	</div>
+	<script src="js/app.min.js?_v=20230128152516"></script>
+</body>
+
+</html>
